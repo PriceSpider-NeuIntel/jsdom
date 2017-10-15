@@ -47,8 +47,8 @@ interface NavigatorCookies {
 
 [NoInterfaceObject]
 interface NavigatorPlugins {
-//  [SameObject] readonly attribute PluginArray plugins;
-//  [SameObject] readonly attribute MimeTypeArray mimeTypes;
+  [SameObject] readonly attribute PluginArray plugins;
+  [SameObject] readonly attribute MimeTypeArray mimeTypes;
   boolean javaEnabled();
 };
 
